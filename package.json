@@ -2,11 +2,10 @@
   "name": "parcel-starter",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "parcel build src/index.js",
     "format": "prettier --write \"**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)\""
   },
   "keywords": [],

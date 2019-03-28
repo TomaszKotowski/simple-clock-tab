@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Simple clock tab",
+  "author": "Tomasz Kotowski",
+  "version": "1.0.1",
+  "description": "Simple clock in new tab",
+  "incognito": "split",
+  "icons": {
+    "16": "./img/16.png",
+    "48": "./img/48.png",
+    "128": "./img/128.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
